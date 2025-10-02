@@ -386,6 +386,8 @@ def test_nystroem_poly_kernel_params():
     X_transformed = nystroem.fit_transform(X)
     assert_array_almost_equal(np.dot(X_transformed, X_transformed.T), K)
 
+def test_empty():
+    pass
 
 def test_nystroem_callable():
     # Test Nystroem on a callable.
