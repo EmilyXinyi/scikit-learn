@@ -71,6 +71,9 @@ def _return_float_dtype(X, Y):
 
     return X, Y, dtype
 
+def ci_test_empty():
+    pass
+
 
 def check_pairwise_arrays(
     X,
